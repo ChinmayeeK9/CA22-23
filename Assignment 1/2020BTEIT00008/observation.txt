@@ -1,0 +1,9 @@
+1.	If we can decide sequence of functions executed from ‘gprof’: 
+No , we can’t decide the sequence of functions executed from gprof as it only shows the amount of time the program has spent executing each function. It also tells about its children and no. of times the each function is executed.
+
+2.	Comment on complexity of the algorithm: 
+1)	Time complexity – 
+Best case = in quick sort, the best case occurs when the pivot element is the middle element or near to the middle element. The best case of quicksort is O(n*logn).
+Average case = in quick sort , the average case occurs when the array elements are in jumbled order i.e not properly in ascending nor descending. The average case of quicksort is O(n*logn).
+Worst case = it occurs when the pivot element is either greatest or smallest element. The worst case of quicksort is O(n^2).
+2)	Space complexity -  O(n*logn) 
